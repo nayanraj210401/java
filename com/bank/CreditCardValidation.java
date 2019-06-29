@@ -3,7 +3,7 @@ package com.bank;
 public class CreditCardValidation extends validationservice {
     @Override
     public boolean validateService() {
-        String bankCode[] = {"1234","8903","4567"};
+        String[] bankCode = {"1234","8903","4567"};
 
         String ServiceCode =getServiceCode();
         boolean flag =false;
